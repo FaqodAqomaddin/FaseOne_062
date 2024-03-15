@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:ucp1/widgets/footer2_widgets.dart';
 import 'package:ucp1/widgets/form2_widgets.dart';
+import 'package:ucp1/widgets/header2_widgets.dart';
 
 class DataMakanan extends StatelessWidget {
   const DataMakanan({super.key});
@@ -10,7 +12,11 @@ class DataMakanan extends StatelessWidget {
       body: SafeArea(
         child: Center(
             child: Column(
-          children: [FormMakanan()],
+          children: [
+            Header2(),
+            FormMakanan(),
+            Footer2(),
+          ],
         )),
       ),
     );
