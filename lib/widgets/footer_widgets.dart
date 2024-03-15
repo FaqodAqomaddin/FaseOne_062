@@ -12,7 +12,7 @@ class FooterWidget extends StatelessWidget {
         ),
         ElevatedButton(
           onPressed: () {},
-          child: const Text("Masuk"),
+          child: const Text("Next"),
         ),
         const SizedBox(
           height: 10,
